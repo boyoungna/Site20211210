@@ -11,8 +11,8 @@
     width: 100%;
     height: 964px;
     /* background-image: url(/img/); */
-    background-color:#e7478c;
-    border-bottom: 3px solid rgb(251, 171, 20);
+    background-color:#e94a7f;
+    border-bottom: 3px solid rgb(236, 167, 40);
 }
 
 .logo {
@@ -59,19 +59,42 @@
     right: 250px;
 }
 
+video {
+    z-index: 3;
+}
+
 .kingdoum {
     position: absolute;
     bottom: 40px;
     left: 770px;
 }
 .event {
+    position: relative;
+    float: left;
+    /* padding: 0px 350px; */
     width: 100%;
     height: 2317px;
-    background-color: beige;
+    background-color: rgb(28, 116, 97);
 }
 
+.icon {
+    position: absolute;
+    top: 60px;
+    left: 840px;
+}
+.tab {
+    display: flex;
+    justify-content: center;
+    padding-top: 270px;
+}
+/* .tab1 {
+    position: absolute;
+    left: 300px;
+} */
+
 .footer {
+    clear: both;
     width: 100%;
-    height: 180px;
+    height: 210px;
     background-color: dimgrey;
 }
