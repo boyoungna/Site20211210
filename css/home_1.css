@@ -69,6 +69,7 @@ video {
     left: 770px;
 }
 .event {
+    overflow: hidden;
     position: relative;
     float: left;
     /* padding: 0px 350px; */
@@ -77,15 +78,57 @@ video {
     background-color: rgb(28, 116, 97);
 }
 
-.icon {
-    position: absolute;
-    top: 60px;
-    left: 840px;
+.bodybox {
+    position: relative;
+    width: 944px;
+    height: 1672px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0 482px;
+    /* border-radius: 3px dotted orange; */
+    /* border-inline-color:  3px dotted rgb(250, 192, 34); */
+    /* ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ아 도저히 혼자 못해먹겠네 ;;; 안에 테두리 어케 넣냐며; */
 }
+
+.icon {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
 .tab {
     display: flex;
     justify-content: center;
-    padding-top: 270px;
+    padding-top: 70px;
+}
+
+.bodybox >  
+.eventit, sub1, sub2, mainimg, tit2, prize, eventest, notice {
+    float: left;
+    top: 10px;
+}
+
+.eventit {
+    position: absolute;
+    margin-top: 57px;
+    margin-left: 170px;
+}
+
+.sub1 {
+    margin-top: 23px;
+    margin-left:100px;
+    margin-bottom: 17px;
+}
+
+.sub2 {
+    margin-left:180px;
+    margin-bottom: 23px;
+}
+
+.mainimg {
+
 }
 
 .footer {
