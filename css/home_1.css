@@ -103,6 +103,18 @@ video {
     justify-content: center;
     padding-top: 70px;
     }
+.tab > tab1, tab2, tab3, tab4 {
+    text-align: none;
+}
+
+
+
+
+
+
+
+
+
 
 .bodybox >  
 .eventit, sub1, sub2, mainimg, tit2, prize, eventest, notice {
